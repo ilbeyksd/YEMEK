@@ -1,0 +1,374 @@
+.container{
+    width:1050px;
+    height: 300px;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.header {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.Headers {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    
+}
+
+.Headers a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.HeaderUserIcons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.ilkfoto{
+    width:1440px;
+    height: 784px;
+}
+
+.ilkfoto h1{
+    height:162px;
+    width: 920px;
+    color: white;
+    line-height: 81px;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Montserrat', bold;
+    position: absolute;
+    bottom: 50px;
+    left: 420px;
+    margin-left: 30px;
+}
+
+.ilkfoto button{
+    background-color: #FD7E14;
+    width:332px;
+    height: 64px;
+    border: radius 3px;;
+    border-color: #FD7E14;
+    gap: 16px;
+    padding: 16px, 64px, 16px, 64px;
+    position: absolute;
+    bottom: 20px;
+    left: 550px;
+}
+
+.ilkfoto button p{
+    font-family: 'Montserrat', bold;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    color: white;
+    position: absolute;
+    left:70px;
+    bottom: -10px;
+    cursor: pointer;
+}
+
+.menü {
+    width: 165px;
+    height: 165px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    position: relative;
+    left: 165px;
+    top: 60px;
+    cursor: pointer;
+}
+
+.türler h5{
+    height: 34px;
+    width: 180px;
+    font-family: 'Montserrat', bold;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    position: absolute;
+    left: 0px;
+    bottom: 300px;
+}
+.türler1 { 
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    position: absolute;
+    left: 165px;
+    top:1279px;
+ justify-content: space-between;
+
+}
+
+.türler2 { 
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    position:absolute;
+    left: 165px;
+    top:1700px;
+
+}
+
+.türler1 h6{
+    position: absolute;
+    height: 60px;
+    width: 260px;
+    left: 0px;
+    top: 301px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    
+}
+
+.türler2 h6{
+    position: absolute;
+    height: 60px;
+    width: 260px;
+    left: 0px;
+    top: 301px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+} 
+
+.buttonicin {
+ position: absolute;
+left:620px;
+bottom:-1420px;
+
+}
+
+.buttonicin h1{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    padding: 0px 10px;
+    height: 10px;
+    width: 100px;
+    padding-bottom: 20px;
+    }
+.ortaalan {
+    position:absolute;
+    left: 140px;
+    bottom: -2170px;
+}
+
+.ortaalan a {
+height: 352px;
+width: 1110px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
+
+.ortaalan h3{
+    text-align: center;
+    position: relative;
+    bottom: 295px;
+    color: white;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+}
+
+.ortaalan b {
+    position: relative;
+    bottom: 295px;
+    left: 390px;
+    cursor: pointer;
+}
+
+.pankek {
+    width: 1440px;
+    height: 875px;
+    top: 2569px; 
+    position: absolute;
+    top:2650px;
+    left:140px;
+}
+
+.pankek a{
+    width: 635px;
+    height: 635px;
+    position: absolute;
+    left: 475px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.pankek b{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+position: relative;
+top:125px;
+}
+
+
+.pankek h2{
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+
+}
+
+.pankek button{
+    background-color: #FD7E14;
+    width: 250px;
+    height: 65px;
+    padding: 16px 64px 16px 64px;
+    gap: 16px;
+    border: radius 3px;
+    border-color: #FD7E14;
+    position: relative;
+top:85px;
+}
+.pankek button p{
+    font-family: 'Montserrat', bold;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    color: white;
+    position: absolute;
+    left:63px;
+    bottom: -10px;
+    cursor: pointer;
+}
+.pankek h2,button,b{
+    position: relative;
+    bottom: -100px;
+}
+
+.collection{
+width: 1440px;
+height: 694px;
+top: 3444px;
+position: relative;
+top:480px;
+left:10px;
+display:flex;
+}
+
+.collection h5{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: relative;
+    left:-16px;
+    top: -100px;
+}
+
+.collection a{
+    position: relative;
+    left:-270px;
+    top: 5px;
+}
+    .collection b{
+        position: relative;
+        left:-335px;
+        top: 5px;
+    }
+
+    .collection a p{
+        font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 37px;
+text-align: left;
+position: relative;
+bottom: 20px;
+    }
+
+    .collection b p{
+        position: relative;
+        bottom: 20px;
+        font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 37px;
+text-align: left;
+    }
+
+    .sonkisim{
+        width: 1440px;
+        height: 304px;
+        position: relative;
+        left: 100px;     
+        top:400px;
+    }
+    .sonkisimfoto{
+        width: 69px;
+        height: 24px;
+        position: relative;
+        left:-110px;
+ }
+
+ .sonkisim p {
+    position: relative;
+    left:-115px;
+    top: 100px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+ }
+
+ .sonkisim b{
+    position: relative;
+    top: 58px;
+    right:-770px;
+ }
+
+ .sonkisimlink{
+  width: 370px;
+  height: 24px;
+  left: 741px;
+  gap: 56px;
+  position: absolute;
+  left: 380px;
+  bottom:260px;
+  display:flex;
+ 
+ }
+
+
+
+    
